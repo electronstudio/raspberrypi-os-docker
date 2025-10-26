@@ -88,9 +88,7 @@ $ docker run -it dtcooper/raspberrypi-os:bookworm
   * Tags: `python3.8`, `python3.8-bookworm`
 
 **Python 3.14 (Debian Bullseye)**
-  * Base image: `python:3.14-bullseye`
-  * Image names: `dtcooper/raspberrypi-os:python-bullseye`, `ghcr.io/dtcooper/raspberrypi-os:python-bullseye`
-  * Tags: `python-bullseye`, `python3.14-bullseye`
+  * Not available
 
 **Python 3.13 (Debian Bullseye)**
   * Base image: `python:3.13-bullseye`
