@@ -53,6 +53,11 @@ $ docker run -it dtcooper/raspberrypi-os:bookworm
   * Tags: `bullseye`
 
 **Python 3.13 (Debian Bookworm)**
+ * Base image: `python:3.14-bookworm`
+ * Image names: `dtcooper/raspberrypi-os:python`, `ghcr.io/dtcooper/raspberrypi-os:python`
+ * Tags: `python`, `python-bookworm`, `python3.14`, `python3.14-bookworm`
+
+**Python 3.13 (Debian Bookworm)**
   * Base image: `python:3.13-bookworm`
   * Image names: `dtcooper/raspberrypi-os:python`, `ghcr.io/dtcooper/raspberrypi-os:python`
   * Tags: `python`, `python-bookworm`, `python3.13`, `python3.13-bookworm`
@@ -81,6 +86,11 @@ $ docker run -it dtcooper/raspberrypi-os:bookworm
   * Base image: `python:3.8-bookworm`
   * Image names: `dtcooper/raspberrypi-os:python3.8`, `ghcr.io/dtcooper/raspberrypi-os:python3.8`
   * Tags: `python3.8`, `python3.8-bookworm`
+
+**Python 3.14 (Debian Bullseye)**
+  * Base image: `python:3.14-bullseye`
+  * Image names: `dtcooper/raspberrypi-os:python-bullseye`, `ghcr.io/dtcooper/raspberrypi-os:python-bullseye`
+  * Tags: `python-bullseye`, `python3.14-bullseye`
 
 **Python 3.13 (Debian Bullseye)**
   * Base image: `python:3.13-bullseye`

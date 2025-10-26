@@ -26,6 +26,9 @@ jobs:
             baseimage: "debian:bullseye"
             tags: ["bullseye"]
           -
+            baseimage: "python:3.14-bookworm"
+            tags: [ "python", "python-bookworm", "python3.14", "python3.14-bookworm" ]
+          -
             baseimage: "python:3.13-bookworm"
             tags: ["python", "python-bookworm", "python3.13", "python3.13-bookworm"]
           -
@@ -43,6 +46,9 @@ jobs:
           -
             baseimage: "python:3.8-bookworm"
             tags: ["python3.8", "python3.8-bookworm"]
+          -
+            baseimage: "python:3.14-bullseye"
+            tags: [ "python-bullseye", "python3.14-bullseye" ]
           -
             baseimage: "python:3.13-bullseye"
             tags: ["python-bullseye", "python3.13-bullseye"]
